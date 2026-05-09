@@ -1,24 +1,16 @@
-# 🚀 Cadastro de Usuários - Full Stack (Front-end)
+# React + Vite
 
-Este é o módulo Front-end de uma aplicação completa de gerenciamento de usuários. O projeto foi desenvolvido para colocar em prática conceitos de consumo de API REST, hooks do React e integração com banco de dados NoSQL.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🛠️ Tecnologias Utilizadas
-- **React** (com Vite)
-- **Axios** (para requisições HTTP)
-- **JavaScript**
-- **CSS3** (Estilização personalizada)
+Currently, two official plugins are available:
 
-## 📌 Funcionalidades
-- [x] Listagem de usuários em tempo real (GET).
-- [x] Cadastro de novos usuários (POST).
-- [x] Exclusão de registros com atualização instantânea (DELETE).
-- [x] Limpeza automática de formulário após envio.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🌐 Demonstração
-O projeto está hospedado no Render e pode ser acessado aqui: 
-[LINK_DO_SEU_DEPLOY_NO_RENDER]
+## React Compiler
 
-## 🔧 Como rodar o projeto localmente
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/TiagoCodeDevs/cadastro-usuarios-web.git](https://github.com/TiagoCodeDevs/cadastro-usuarios-web.git)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
